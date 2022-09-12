@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.rabe3{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.rabe3 .fo2 .icon{
+    color: purple;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.rabe3 .fo2 .line1{
+    width: 50%;
+    height: 5px;
+    
+    background-color: rgb(179, 0, 179);
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 100%;
+}
+.rabe3 .fo2 .line2{
+    width: 40%;
+    height: 5px;
+    margin:  auto ;
+   border-bottom: 3px dashed  rgb(179, 0, 179);
+}
+.rabe3 .fo2 .line3{
+    width: 30%;
+    height: 5px;
+    margin:  auto ;
+    margin-top: 15px;
+   border-bottom: 3px dashed  rgb(179, 0, 179);
+}
+.rabe3 .tht{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.rabe3 .tht .yemin{
+    width: 49%;
+margin-top: 50px;
+height: 62vh;
+}
+.rabe3 .tht .yemin iframe{
+    width: 100%;
+    height: 100%;
+}
+.rabe3 .tht .shemal {
+    width: 49%;
+    margin-top: 50px;
+   
+
+}
+.rabe3 .tht .shemal h1 {
+  color: palevioletred;
+  font-size: 50px;
+
+
+}
+.rabe3 .tht .shemal label{
+    color: white;
+}
+.rabe3 .tht .shemal .mapass{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-bottom: 10px; */
+}
+.rabe3 .tht .shemal  label{
+    color: violet;
+    font-size: 25px;
+    
+}
+.rabe3 .tht .shemal .inmp{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.rabe3 .tht .shemal .inmp input{
+  width: 45%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.rabe3 .tht .shemal .inadd1 input{
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.rabe3 .tht .shemal .inadd2 input{
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.rabe3 .tht .shemal .citzip{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.rabe3 .tht .shemal .incitzip{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rabe3 .tht .shemal .incitzip input{
+  width: 45%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.rabe3 .tht .shemal button{
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #007bff;
+    color: white;
+
+}
+.rabe3 .tht .shemal button:hover{
+    background-color: blue;
+}
+@media (max-width: 1025px){
+    .rabe3 .tht .yemin{
+        
+    height: 93vh;
+    }
+
+}
+@media (max-width: 768px){
+    .rabe3 .tht .shemal {
+        width: 95%;
+        margin-top: 50px;
+        
+       
+    
+    }
+    .rabe3 .tht .shemal h1 {
+        color: palevioletred;
+        font-size: 40px;
+      margin: auto;
+      
+      }
+    .rabe3 .tht .yemin{
+        margin: auto;
+        width: 95%;
+    margin-top: 50px;
+    height: auto;
+    }
+}
+@media (max-width: 426px){
+    .rabe3 .tht .shemal  label{
+    color: violet;
+    font-size: 20px;
+    
+}
+.rabe3 .tht .shemal h1 {
+    color: palevioletred;
+    font-size: 30px;
+  margin: auto;
+  
+  }
+}

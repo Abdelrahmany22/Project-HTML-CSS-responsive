@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.a5er{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;justify-content: space-around;
+}
+.a5er .about{
+    width: 48%;
+
+}
+.a5er .about h1{
+    color: gray;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 45px;
+}
+.a5er .about p{
+    color: gray;
+    /* display: flex;
+    justify-content: left; */
+   text-align: left;
+  
+}
+.a5er .categories{
+    width: 24%;
+}
+.a5er .categories h1{
+    color: gray;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 45px;
+}
+.a5er .categories ul li{
+    color: gray;
+    font-size: large;
+    padding: 2px;
+}
+
+.a5er .categories ul{
+    margin-left:30px ;
+    text-align: left;
+    
+}
+
+.a5er .links{
+    width: 24%;
+}
+.a5er .links h1{
+    color: gray;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 45px;
+}
+.a5er .links ul li{
+    color: gray;
+    font-size: large;
+    padding: 2px;
+}
+
+.a5er .links ul{
+    margin-left:30px ;
+    text-align: left;
+}
+.a5er .links ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.a5er .links ul li a:hover{
+    text-decoration: underline; 
+}
+.a5er .gl{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(179, 0, 179);
+        margin: auto;
+        margin-bottom: 15px;
+        border-radius: 100%;
+        margin-top: 20px;
+}
+.a5er .guide{
+    float: left;
+}
+.a5er .guide p{
+    color: gray;
+   text-align: left;
+}
+@media (max-width: 768px){
+    .a5er .about{
+        width: 100%;
+    
+    }
+    .a5er .categories{
+        width: 50%;
+    }
+    .a5er .links{
+        width: 50%;
+    }
+    .a5er .categories h1{
+        font-size: 35px;
+    }
+    .a5er .links h1{
+       
+        font-size: 35px;
+    }
+    .a5er .about h1{
+       
+        font-size: 35px;
+    }
+}
+@media (max-width: 426px){
+    .a5er .about{
+        width: 100%;
+    
+    }
+    .a5er .categories{
+        width: 100%;
+    }
+    .a5er .links{
+        width: 100%;
+    }
+    .a5er .categories h1{
+        font-size: 30px;
+    }
+    .a5er .links h1{
+       
+        font-size: 30px;
+    }
+    .a5er .about h1{
+       
+        font-size: 30px;
+    }
+}
